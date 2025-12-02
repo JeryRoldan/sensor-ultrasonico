@@ -1,5 +1,3 @@
-# created by virtualenv automatically
-.venv/Lib
 # Carpetas innecesarias
 __pycache__/
 .idea/
