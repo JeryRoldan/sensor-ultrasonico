@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+.venv/Lib
+# Carpetas innecesarias
+__pycache__/
+.idea/
+.env/
+
+# Archivos de entorno
+*.env
