@@ -1,4 +1,4 @@
-const API_URL = "https://TU-APP-EN-RENDER.onrender.com/api/distancia"; 
+const API_URL = "https://sensor-ultrasonico.onrender.com/api/distancia";
 // Reemplazar cuando tu app en Render esté activa
 
 const tablaBody = document.getElementById("tabla-body");
