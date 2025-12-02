@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sensor Ultrasonido ESP32</title>
+
+  <!-- Fuente moderna -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>📡 Sensor Ultrasonido ESP32</h1>
+    <p>Visualización de las distancias enviadas en tiempo real</p>
+  </header>
+
+  <!-- TARJETA DE ESTADO -->
+  <section id="estado">
+    <span class="status-dot"></span>
+    <span id="estado-texto">Esperando datos...</span>
+  </section>
+
+  <!-- TABLA DE DATOS -->
+  <section class="contenedor-tabla">
+    <table id="tabla">
+      <thead>
+        <tr>
+          <th>📅 Fecha / Hora</th>
+          <th>📏 Distancia (cm)</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-body">
+        <tr><td colspan="2">Sin datos aún...</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p>Desarrollado por el Grupo 4 | ESP32 + FastAPI + Render 🚀</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
